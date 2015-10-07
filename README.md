@@ -5,5 +5,5 @@ Repositorio Open Source del módulo de reportes del proyecto de Aplicaciones en 
 ##El Stalin no hace nada
 ##El Jonathan no hace nada
 ##El Santiago no hace nada
-##El Ricardo escribe cualquier cosa
+##El Ricardo no hace nada
 
