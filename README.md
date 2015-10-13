@@ -8,7 +8,8 @@ Repositorio Open Source del módulo de reportes del proyecto de Aplicaciones en 
 - Obtener un promedio total del curso el cual nos indicará que curso tiene mejor calificación.
 - Tener un listado para saber que personas pasan o reprueban el curso en base a sus calificaciones.
 
-Sitio Web: http://applibresinstareport.github.io/InstaReport/
+##Sitio Web: 
+http://applibresinstareport.github.io/InstaReport/
 
 ## Nombres y Links de github de los Integrantes:
 - Jonathan Quinchiguango:  https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango.
