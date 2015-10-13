@@ -11,3 +11,8 @@ Repositorio Open Source del módulo de reportes del proyecto de Aplicaciones en 
 Sitio Web: http://applibresinstareport.github.io/InstaReport/
 
 ## Links de github de los Integrantes:
+- Jonathan Quinchiguango:  https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango.
+- Stalin Aguirre:  https://github.com/orgs/AppLibresInstaReport/people/nekopq.
+- Fernando Núñez:  https://github.com/orgs/AppLibresInstaReport/people/fercho1.
+- Ricardo Rojas:  https://github.com/orgs/AppLibresInstaReport/people/ricrojas.
+- Santiago Samaniego:  https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi.
