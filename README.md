@@ -23,7 +23,7 @@ http://applibresinstareport.github.io/InstaReport/
 * Santiago Samaniego:      [Santiagobssi]
 
 [jonathanQuinchiguango]: <https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango>
-[nekopq] : <https://github.com/orgs/AppLibresInstaReport/people/nekopq>
+[nekopq]: <https://github.com/orgs/AppLibresInstaReport/people/nekopq>
 [fercho1]: <https://github.com/orgs/AppLibresInstaReport/people/fercho1>
-[ricrojas] : <https://github.com/orgs/AppLibresInstaReport/people/ricrojas>
-[Santiagobssi] : <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
+[ricrojas]: <https://github.com/orgs/AppLibresInstaReport/people/ricrojas>
+[Santiagobssi]: <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
