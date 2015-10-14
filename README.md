@@ -15,7 +15,7 @@ De llegarse a implementar la abstracción de 'curso':
 ##Sitio Web: 
 http://applibresinstareport.github.io/InstaReport/
 
-## Nombres y Links de github de los Integrantes:
+## Autores y Colaboradores del Proyecto:
 - Jonathan Quinchiguango:  https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango.
 - Stalin Aguirre:          https://github.com/orgs/AppLibresInstaReport/people/nekopq.
 - Fernando Núñez:          https://github.com/orgs/AppLibresInstaReport/people/fercho1.
