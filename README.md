@@ -16,8 +16,14 @@ De llegarse a implementar la abstracción de 'curso':
 http://applibresinstareport.github.io/InstaReport/
 
 ## Autores y Colaboradores del Proyecto:
-- Jonathan Quinchiguango:  https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango.
-- Stalin Aguirre:          https://github.com/orgs/AppLibresInstaReport/people/nekopq.
-- Fernando Núñez:          https://github.com/orgs/AppLibresInstaReport/people/fercho1.
-- Ricardo Rojas:           https://github.com/orgs/AppLibresInstaReport/people/ricrojas.
-- Santiago Samaniego:      https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi.
+* Jonathan Quinchiguango:  [jonathanQuinchiguango]
+* Stalin Aguirre:          [nekopq]
+* Fernando Núñez:          [fercho1]
+* Ricardo Rojas:           [ricrojas] 
+* Santiago Samaniego:      [Santiagobssi]
+
+[jonathanQuinchiguango]: <https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango>
+[nekopq] : <https://github.com/orgs/AppLibresInstaReport/people/nekopq>
+[fercho1]: <https://github.com/orgs/AppLibresInstaReport/people/fercho1>
+[ricrojas] : <https://github.com/orgs/AppLibresInstaReport/people/ricrojas>
+[Santiagobssi] : <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
