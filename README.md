@@ -13,7 +13,9 @@ De llegarse a implementar la abstracción de 'curso':
 - Tener un listado para saber que personas pasan o reprueban el curso en base a sus calificaciones.
 
 ##Sitio Web: 
-http://applibresinstareport.github.io/InstaReport/
+
+<a class="animated wow tada" target="_blank" href="http://applibresinstareport.github.io/InstaReport/"></a>
+ 
 
 ## Autores y Colaboradores del Proyecto:
 * [Jonathan Quinchiguango]
