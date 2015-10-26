@@ -14,7 +14,7 @@ De llegarse a implementar la abstracción de 'curso':
 
 ##Sitio Web: 
 
-<a class="animated wow tada" target="_blank" href="http://applibresinstareport.github.io/InstaReport/"></a>
+ http://applibresinstareport.github.io/InstaReport/
  
 
 ## Autores y Colaboradores del Proyecto:
