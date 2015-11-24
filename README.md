@@ -4,7 +4,9 @@ Repositorio Open Source del módulo de reportes del proyecto de Aplicaciones en 
 ## Datos del Proyecto
 - Periodo activo: Octubre 2015 - Febrero 2016
 - Estado: En Desarrollo
-## Objetivos Principales
+
+##Objetivos Principales
+
 - Desarrollar el módulo de reportes del proyecto de Cuestionario automático, haciendo uso de herramientas Open Source.
 - El módulo de reportes deberá recibir y procesar la información entregada por los módulos de Preguntas y de Calificaciones con el objetivo de generar reportes que contengan información valiosa para los interesados.
 - Los reportes han de ser fáciles de comprender y deberán incluir y relacionar información pertenenciente a los cuestionarios, intentos, tiempos, estudiantes, calificaciones, entre otros parámetros que puedan resultar de interés.
