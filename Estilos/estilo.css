@@ -1,13 +1,24 @@
- <style> h1 {
+ <style> 
+
+h1 {
      color: chocolate;
      text-align: center;
  }
+
+h2 { 
+    text-shadow: 2px 2px 5px #000000;   
+}
+
  body {
      color:coral;
+     background-repeat: no-repeat;
+     background-size: contain;
  }
+
+
 .centrar{
     text-align: center;
-    color: black
+    color: black;
 }
 
 #tabla1{
