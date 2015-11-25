@@ -42,3 +42,7 @@ https://docs.google.com/drawings/d/11yn8HgUvSDkZSCOJQ7Jnu2I1_1omTAsVYwOGVedjQqU/
 [Quinchiguango Jonathan]: <https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango>
 [Rojas Ricardo]: <https://github.com/orgs/AppLibresInstaReport/people/ricrojas>
 [Samaniego Santiago]: <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
+
+
+## Más información: [wiki del Proyecto]
+[wiki del Proyecto]: <https://github.com/AppLibresInstaReport/InstaReport/wiki>
