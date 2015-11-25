@@ -30,14 +30,14 @@ https://docs.google.com/drawings/d/11yn8HgUvSDkZSCOJQ7Jnu2I1_1omTAsVYwOGVedjQqU/
 
 
 ## Autores y Colaboradores del Proyecto:
-* [Jonathan Quinchiguango]
-* [Stalin Aguirre]         
-* [Fernando Núñez]        
-* [Ricardo Rojas]          
-* [Santiago Samaniego]     
+* [Aguirre Stalin]         
+* [Núñez Fernando]        
+* [Quinchiguango Jonathan]
+* [Rojas Ricardo]          
+* [Samaniego Santiago]     
 
-[Jonathan Quinchiguango]: <https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango>
-[Stalin Aguirre]: <https://github.com/orgs/AppLibresInstaReport/people/nekopq>
-[Fernando Núñez]: <https://github.com/orgs/AppLibresInstaReport/people/fercho1>
-[Ricardo Rojas]: <https://github.com/orgs/AppLibresInstaReport/people/ricrojas>
-[Santiago Samaniego]: <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
+[Aguirre Stalin]: <https://github.com/orgs/AppLibresInstaReport/people/nekopq>
+[Núñez Fernando]: <https://github.com/orgs/AppLibresInstaReport/people/fercho1>
+[Quinchiguango Jonathan]: <https://github.com/orgs/AppLibresInstaReport/people/jonathanQuinchiguango>
+[Rojas Ricardo]: <https://github.com/orgs/AppLibresInstaReport/people/ricrojas>
+[Samaniego Santiago]: <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
