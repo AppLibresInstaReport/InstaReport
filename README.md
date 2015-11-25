@@ -20,9 +20,10 @@ De llegarse a implementar la abstracción de 'curso':
 
  http://applibresinstareport.github.io/InstaReport/
  
-##Subscríbete en:
+##Suscríbete:
 
-http://eepurl.com/bCXZtX
+Ver la [Guía de Suscripción]
+[Guía de Suscripción]: <https://github.com/AppLibresInstaReport/InstaReport/wiki/Guia-de-Suscripcion>
 
 ##Diseño InstaReport:
 
