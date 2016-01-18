@@ -29,6 +29,8 @@ Ver la [Guía de Suscripción]
 
 https://docs.google.com/drawings/d/11yn8HgUvSDkZSCOJQ7Jnu2I1_1omTAsVYwOGVedjQqU/edit?usp=sharing
 
+##Lista de Tareas
+Trello: <https://trello.com/b/cKeIlrwK/libres>
 
 ## Autores y Colaboradores del Proyecto:
 * [Aguirre Stalin]         
