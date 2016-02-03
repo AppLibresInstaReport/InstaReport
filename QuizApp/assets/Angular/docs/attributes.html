@@ -1,0 +1,156 @@
+The most common way to define directive in html code is as follows:
+<pre><code class="html">&lt;nvd3 options="options"
+      data="data"
+      config="config"
+      events="events"
+      api="api"
+      on-ready="callback"&gt;&lt;/nvd3&gt;</code></pre>
+<code>options</code> and <code>data</code> are required attributes and used as above, the others are optional.
+
+<h3>config <span style="font-size: small;">[optional]</span></h3>
+Setting up the global directive config in your controller like:
+<pre><code class="javascript">$scope.config = {
+    visible: true, // default: true
+    extended: false, // default: false
+    disabled: false, // default: false
+    refreshDataOnly: true, // default: true
+    deepWatchOptions: true, // default: true
+    deepWatchData: true, // default: true
+    deepWatchDataDepth: 2, // default: 2
+    debounce: 10 // default: 10
+};</code></pre>
+
+<table class="tableAPI">
+    <tr>
+        <th class="api">Option</th>
+        <th class="desc">Description</th>
+    </tr>
+    <tr>
+        <td class="api">visible</td>
+        <td class="desc"><b>true</b>: boolean. <br> Make chart visible/hidden.</td>
+    </tr>
+    <tr>
+        <td class="api">extended</td>
+        <td class="desc"><b>false</b>: boolean.<br> Allow to extend json <code>options</code> to the full json api and customize it.
+            By default, you can customize only the options that you set, the others will default.</td>
+    </tr>
+    <tr>
+        <td class="api">disabled</td>
+        <td class="desc"><b>false</b>: boolean.<br> Disable the chart to prevent unexpected changing.</td>
+    </tr>
+    <tr>
+        <td class="api">refreshDataOnly</td>
+        <td class="desc"><b>true</b>: boolean. [since v1.0.3+ it's <b>true</b> by default]
+            <br> Refresh chart with data only, and without refreshing the full directive. It is especially useful for real-time updated charts.</td>
+    </tr>
+    <tr>
+        <td class="api">deepWatchOptions</td>
+        <td class="desc"><b>true</b>: boolean.<br> If <i>true</i>, directive watches for updating complex options.</td>
+    </tr>
+    <tr>
+        <td class="api">deepWatchData</td>
+        <td class="desc"><b>true</b>: boolean. [since v1.0.4+ <b>true</b> by default; previous v1.0.2, v1.0.3 is <b>false</b> by default]
+            <br> If <i>true</i>, directive uses scope <code>$watch</code> for tracking the data object.
+            If <i>false</i>, scope <code>$watch</code> is not used.
+            Change detection strategy is specified via <code>deepWatchDataDepth</code> config.
+        </td>
+    </tr>
+    <tr>
+        <td class="api">deepWatchDataDepth</td>
+        <td class="desc"><b>2</b>: number. [since v1.0.4+]
+            <br> It's used if <code>deepWatchData = true</code>.
+            <br> Specify a change detection strategy (scope <code>$watch</code> depth) for data:
+            <ul>
+                <li><code>0</code> - By Reference (the least powerful, but the most efficient)</li>
+                <li><code>1</code> - By Collection Items</li>
+                <li><code>2</code> - By Value (the most powerful, but also the most expensive; default value)</li>
+            </ul>
+            <img src="img/concepts-scope-watch-strategies.png" alt="">
+
+        </td>
+    </tr>
+    <tr>
+        <td class="api">debounce</td>
+        <td class="desc"><b>10</b>: number.<br> Time silence to prevent refresh while multiple options changing at a time.</td>
+    </tr>
+</table>
+
+You can also set configuration directly in html like:
+<pre><code class="html">&lt;nvd3 options="options" data="data" config="{ extended: true, disabled: true }"&gt;&lt;/nvd3&gt;</code></pre>
+
+
+<h3>events <span style="font-size: small;">[optional]</span></h3>
+Directive can be subscribed to any global event through this attribute. Say, for example, you need to do smth
+with directive after <code>'someEvent1'</code> or <code>'someEvent2'</code> arised.
+You can add this attribute and push event handlers right into directive like:
+<pre><code class="javascript">$scope.events = {
+    someEvent1: function(e, scope){
+        /* do smth, scope - is internal directive scope */
+    },
+    someEvent2: function(e, scope){
+        /* do smth, scope - is internal directive scope */
+    },
+};</code></pre>
+Then you can, for example, manually broadcast event like:
+<pre><code class="javascript">$scope.$broadcast('someEvent1');</code></pre>
+This will trigger directive.
+
+
+<h3>api <span style="font-size: small;">[optional]</span></h3>
+Using this attribute you can access a global directive api (this is not a chart api).
+<table class="tableAPI">
+    <tr>
+        <th class="api">Function</th>
+        <th class="desc">Description</th>
+    </tr>
+    <tr>
+        <td class="api">refresh()</td>
+        <td class="desc">Completely refresh directive.</td>
+    </tr>
+    <tr>
+        <td class="api">update()</td>
+        <td class="desc">Update chart layout (for example if container is resized). [v0.1.0+]</td>
+    </tr>
+    <tr>
+        <td class="api">refreshWithTimeout(t)</td>
+        <td class="desc">Completely refresh directive after specified timeout <code>t</code>. [v1.0.4+]</td>
+    </tr>
+    <tr>
+        <td class="api">updateWithTimeout(t)</td>
+        <td class="desc">Update chart layout after specified timeout <code>t</code>. [v1.0.4+]</td>
+    </tr>
+    <tr>
+        <td class="api">updateWithOptions(options)</td>
+        <td class="desc">Update chart with new <code>options</code> json.</td>
+    </tr>
+    <tr>
+        <td class="api">updateWithData(data)</td>
+        <td class="desc">Update chart with new <code>data</code> json.</td>
+    </tr>
+    <tr>
+        <td class="api">clearElement()</td>
+        <td class="desc">Clear completely directive element.</td>
+    </tr>
+    <tr>
+        <td class="api">getScope()</td>
+        <td class="desc">Get access to the internal directive scope. For example, we can get chart object via <code>$scope.api.getScope().chart</code>. [v0.1.0+]</td>
+    </tr>
+    <tr>
+        <td class="api">getElement()</td>
+        <td class="desc">Get directive DOM element. [v1.0.5+]</td>
+    </tr>
+</table>
+You can, for example, refresh your directive from controller like:
+<pre><code class="javascript">$scope.api.refresh();</code></pre>
+
+<h3>on-ready <span style="font-size: small;">[optional]</span></h3>
+Allow you to get internal scope under directive initialization:
+<pre><code class="javascript">$scope.callback = function(scope, element){
+    // this code will be applied once directive has been created
+    // scope - is the directive internal scope
+    // element - directive DOM element
+    var api = scope.api;
+    var chart = scope.chart;
+    var svg = scope.svg;
+    // ... do smth
+};</code></pre>
