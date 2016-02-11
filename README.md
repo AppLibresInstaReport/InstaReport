@@ -20,6 +20,9 @@ De llegarse a implementar la abstracción de 'curso':
 [InstaReportWEB] 
 [InstaReportWEB]: <http://applibresinstareport.github.io/InstaReport/>
  
+## Manual Uso de InstaReport
+[Manual]
+[Manual]: <https://github.com/AppLibresInstaReport/InstaReport/blob/master/Uso%20Reportes.pdf>
  
 ##URL de Acceso a la aplicación: 
 [InstaReport] 
@@ -59,4 +62,5 @@ En la herramienta [Trello] especificamos las tareas a llevarse a cabo en el proy
 #Base de Datos Cloud 9
 [Base de Datos C9]
 [Base de Datos C9]:<https://ide.c9.io/siu/dd3>
+
 
