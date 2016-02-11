@@ -21,7 +21,7 @@ De llegarse a implementar la abstracción de 'curso':
 [InstaReportWEB]: <http://applibresinstareport.github.io/InstaReport/>
  
  
- ##URL de Acceso a la aplicación: 
+##URL de Acceso a la aplicación: 
 [InstaReport] 
 [InstaReport]: <https://dd3-siu.c9users.io/Angular/#/>
 
