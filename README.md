@@ -20,14 +20,17 @@ De llegarse a implementar la abstracción de 'curso':
 [InstaReportWEB] 
 [InstaReportWEB]: <http://applibresinstareport.github.io/InstaReport/>
  
-## Manual Uso de InstaReport
-[Manual]
-[Manual]: <https://github.com/AppLibresInstaReport/InstaReport/blob/master/Uso%20Reportes.pdf>
- 
 ##URL de Acceso a la aplicación: 
 [InstaReport] 
 [InstaReport]: <https://dd3-siu.c9users.io/Angular/#/>
 
+## Manual Uso de InstaReport
+[Manual]
+[Manual]: <https://github.com/AppLibresInstaReport/InstaReport/blob/master/Uso%20Reportes.pdf>
+ 
+##Chat: 
+[DiscordApp] 
+[DiscordApp]: <https://discordapp.com/invite/0mFyzzyfb8mB9cd9>
 
 ##Suscríbete:
 
