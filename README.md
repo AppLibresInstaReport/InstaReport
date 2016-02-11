@@ -3,7 +3,7 @@ Repositorio Open Source del módulo de reportes del proyecto de Aplicaciones en 
 
 ## Datos del Proyecto
 - Periodo activo: Octubre 2015 - Febrero 2016
-- Estado: En Desarrollo
+- Estado: Terminada
 
 ##Objetivos Principales
 
