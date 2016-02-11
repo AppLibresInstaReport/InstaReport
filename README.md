@@ -27,11 +27,12 @@ Ver la [Guía de Suscripción]
 [Guía de Suscripción]: <https://github.com/AppLibresInstaReport/InstaReport/wiki/Guia-de-Suscripcion>
 
 ##Diseño InstaReport:
-
-https://docs.google.com/drawings/d/11yn8HgUvSDkZSCOJQ7Jnu2I1_1omTAsVYwOGVedjQqU/edit?usp=sharing
+[Diseño de la Interfaz de InstaReport]
+[Diseño de la Interfaz de InstaReport]:<https://docs.google.com/drawings/d/11yn8HgUvSDkZSCOJQ7Jnu2I1_1omTAsVYwOGVedjQqU/edit?usp=sharing>
 
 ##Lista de Tareas
-Trello: <https://trello.com/b/cKeIlrwK/libres>
+En la herramienta [Trello] especificamos las tareas a llevarse a cabo en el proyecto.
+[Trello]: <https://trello.com/b/cKeIlrwK/libres>
 
 ## Autores y Colaboradores del Proyecto:
 * [Aguirre Stalin]         
@@ -47,8 +48,10 @@ Trello: <https://trello.com/b/cKeIlrwK/libres>
 [Samaniego Santiago]: <https://github.com/orgs/AppLibresInstaReport/people/Santiagobssi>
 
 
-## Más información: [wiki del Proyecto]
-[wiki del Proyecto]: <https://github.com/AppLibresInstaReport/InstaReport/wiki>
-#Link del Base de Datos Cloud 9
-https://ide.c9.io/siu/dd3
+## Más información: 
+[Wiki]
+[Wiki]: <https://github.com/AppLibresInstaReport/InstaReport/wiki>
+#Base de Datos Cloud 9
+[Base de Datos C9]
+[Base de Datos C9]:<https://ide.c9.io/siu/dd3>
 
